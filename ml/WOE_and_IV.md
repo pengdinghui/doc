@@ -11,3 +11,14 @@ WOE的全称是“Weight of Evidence”，即证据权重。WOE是对原始自�
 
 
 
+IV的全称是Information Value，中文意思是信息价值，或者信息量。
+
+
+# $IV_i = (py_i - pn_i) * WOE_i$
+
+
+有了一个变量各分组的IV值，我们就可以计算整个变量的IV值，方法很简单，就是把各分组的IV相加：
+
+# $IV = \sum_{i= 1}^n IV_i$
+
+其中，n为变量分组个数。
