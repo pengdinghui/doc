@@ -16,4 +16,7 @@
 	git reset  --hard  <commit id> 不保留修改的内容
 ```
 
-
+拉取远程指定分支
+```
+    git fetch origin xxx:xxx  前一个xxx是远程分支名,后一个xxx是本地分支名
+```
